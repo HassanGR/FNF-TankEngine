@@ -1,5 +1,5 @@
 # Friday Night Funkin' - Tank Engine
-idk if it is ever going to be perfered by anyone, but if you like it, honestly idk what to say it literally is just a better version of psych engine by like 1%, intended to be a fix for the psych version's many issues while keeping the casual play aspect of if.
+idk if it is ever going to be perfered by anyone, but if you like it, honestly idk what to say it literally is just a better version of psych engine by like 1%, intended to be a fix for the psych version's many issues while keeping the casual play aspect of it.
 
 ## Installation:
 You must have [Haxe version 4.2.5](https://haxe.org/download/version/4.2.5/), seriously, stop using older or newer versions, it won't work!

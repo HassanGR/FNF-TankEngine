@@ -265,7 +265,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		descText.y += 580 + 75 / 2;
 		descBox.alpha = 0;
 		FlxTween.tween(descBox, {y : 580}, 0.7, {ease: FlxEase.expoInOut});
-		FlxTween.tween(descBox, {alpha : 0.6}, 0.4, {ease: FlxEase.expoInOut});
+		FlxTween.tween(descBox, {alpha : 0.6}, 1, {ease: FlxEase.expoInOut});
 		descText.screenCenter(X);
 		
 

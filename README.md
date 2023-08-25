@@ -29,3 +29,4 @@ If the compiler gives an error saying that hxCodec cannot be found read this iss
 _____________________________________
 ## Customization
 this might be the best thing in tank engine, most addons are customizable.
+customizable icons bopping, you might have to try it out to understand what it is, and thats the special thing about this engine, i dont know how to name things properly, and uhh, thats it

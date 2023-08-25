@@ -15,8 +15,8 @@ class TanksSubState extends BaseOptionsMenu
                     ClientPrefs.data.iconBop = ClientPrefs.defaultData.iconBop; //Reset to default if saved splashskin couldnt be found
 
                 iconBopStyle.insert(0, ClientPrefs.defaultData.iconBop); //Default skin always comes first
-                var option:Option = new Option('Icon Bopping', //Name
-                    'Get good please.', //Description
+                var option:Option = new Option('Icon Bopping Style:', //Name
+                    'Choose how do you want the icons in the healthbar move when a beat is hit', //Description
                     'iconBop', //Save data variable name
                     'string',
                     iconBopStyle); //Variable type

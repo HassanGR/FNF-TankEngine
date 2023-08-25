@@ -4,6 +4,9 @@ import objects.CheckboxThingie;
 import objects.AttachedText;
 import options.Option;
 
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+
 class BaseOptionsMenu extends MusicBeatSubstate
 {
 	private var curOption:Option = null;
@@ -226,6 +229,11 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		if(nextAccept > 0) {
 			nextAccept -= 1;
 		}
+
+		descText.x = descBox.x;
+		descText.y = descBox.y + 10;
+		descText.alpha = descBox.alpha + 0.6;
+
 		super.update(elapsed);
 	}
 
@@ -254,8 +262,12 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			curSelected = 0;
 
 		descText.text = optionsArray[curSelected].description;
-		descText.screenCenter(Y);
-		descText.y += 270;
+		descText.y += 580 + 75 / 2;
+		descBox.alpha = 0;
+		FlxTween.tween(descBox, {y : 580}, 0.7, {ease: FlxEase.expoInOut});
+		FlxTween.tween(descBox, {alpha : 0.6}, 0.4, {ease: FlxEase.expoInOut});
+		descText.screenCenter(X);
+		
 
 		var bullShit:Int = 0;
 

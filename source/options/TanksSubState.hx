@@ -2,7 +2,6 @@ package options;
 
 class TanksSubState extends BaseOptionsMenu
 {
-    
 	public function new()
 	{
 		title = 'Tanks';

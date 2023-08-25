@@ -1629,11 +1629,8 @@ class PlayState extends MusicBeatState
 		{
 			var mult:Float = FlxMath.lerp(1, iconP1.scale.x, FlxMath.bound(1 - (elapsed * 9 * playbackRate), 0, 1));
 			iconP1.scale.set(mult, mult);
-
-
 			var mult:Float = FlxMath.lerp(1, iconP2.scale.x, FlxMath.bound(1 - (elapsed * 9 * playbackRate), 0, 1));
 			iconP2.scale.set(mult, mult);
-			
 		}
 		else if(ClientPrefs.data.iconBop == "Vanilla")
 		{
